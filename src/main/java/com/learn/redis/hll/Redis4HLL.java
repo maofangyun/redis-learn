@@ -1,4 +1,4 @@
-package com.learn.redis;
+package com.learn.redis.hll;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.HyperLogLogOperations;
