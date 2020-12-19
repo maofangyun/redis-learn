@@ -1,6 +1,5 @@
 package com.learn.redis;
 
-import com.learn.redis.limiter.SlideWindowRateLimiter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;

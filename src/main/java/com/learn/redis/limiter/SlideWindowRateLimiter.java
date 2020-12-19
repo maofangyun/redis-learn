@@ -9,7 +9,7 @@ import java.io.IOException;
 //@WebFilter(filterName = "slideWindowRateLimiter", urlPatterns = "/*")
 public class SlideWindowRateLimiter extends RateLimiter {
 
-    public SlideWindowRateLimiter() throws IOException {
+    public SlideWindowRateLimiter(){
         super();
         super.key = "slide_window_rate_limiter.lua";
     }

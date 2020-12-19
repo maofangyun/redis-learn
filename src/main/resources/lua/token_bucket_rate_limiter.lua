@@ -1,10 +1,10 @@
 --将请求url当作key
 local url = KEYS[1]
 --当前请求获取令牌的时间
-local current_time = tonumber(ARGV[1])
+local current_time = tonumber(KEYS[2])
 
 --令牌桶容量
-local capacity = 20
+local capacity = 5
 --令牌桶剩余的令牌数
 local left_token
 --令牌生成速率
