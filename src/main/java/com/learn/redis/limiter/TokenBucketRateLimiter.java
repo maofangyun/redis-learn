@@ -1,7 +1,6 @@
 package com.learn.redis.limiter;
 
 import javax.servlet.annotation.WebFilter;
-import java.io.IOException;
 
 /**
  * 如何将限流器加入过滤器
